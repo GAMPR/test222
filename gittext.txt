@@ -1,0 +1,6 @@
+Create repository
+git init 
+program a file
+git add . (adds all) 
+git commit -m "Initial Commit" (commits) 
+
