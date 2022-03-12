@@ -1,6 +1,22 @@
-Create repository
+push new: 
+Create folder 
 git init 
+optional: git add README.md 
 program a file
 git add . (adds all) 
 git commit -m "Initial Commit" (commits) 
+git branch -M main
+create repo on github 
+git remote add origin https://github.com/GAMPR/namecreatedorigin.git 
+wrong origin: git remote remove origin 
+git push -u origin main 
+curl -u username:token https://api.github.com/user 
+user: GAMPR 
+auth key: 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 
 
+
+
+push existing:
+git remote add origin https://github.com/GAMPR/test222.git
+git branch -M main
+git push -u origin main
